@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ToDoItem from "./components/ToDoItem";
 import InputArea from "./components/InputArea";
 
+import "./App.css";
+
 function App() {
   const [inputText, setInputText] = useState("");
   const [items, setItems] = useState([]);
